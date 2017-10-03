@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Users/fjanky/ISE/EthernetModule/EtherModule_Test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="arch" />
+            <top_module name="attributes" />
+            <top_module name="ethermodule_test" />
+            <top_module name="ethernetlayerpkg" />
+            <top_module name="ProtoLayertypesanddefs" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="pduqueuepkg" />
+            <top_module name="protomodulepkg" />
+            <top_module name="simulation" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_misc" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="tuw" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="89" />
+   <wvobject fp_name="/ethermodule_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[0:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/addr_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_data_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_data_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/dstmacaddr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dstmacaddr_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dstmacaddr_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/srcmacaddr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">srcmacaddr_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">srcmacaddr_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/ethtype_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ethtype_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ethtype_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sdu_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_dinv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_dinv</obj_property>
+      <obj_property name="ObjectShortName">sdu_dinv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_in_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_in_sop</obj_property>
+      <obj_property name="ObjectShortName">sdu_in_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_in_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_in_eop</obj_property>
+      <obj_property name="ObjectShortName">sdu_in_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_in_ind" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_in_ind</obj_property>
+      <obj_property name="ObjectShortName">sdu_in_ind</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_in_errin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_in_errin</obj_property>
+      <obj_property name="ObjectShortName">sdu_in_errin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_in_user_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_in_user_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sdu_in_user_in[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_out_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_ack</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_out_errin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_errin</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_errin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdu_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_dinv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_dinv</obj_property>
+      <obj_property name="ObjectShortName">pdu_dinv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_in_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_sop</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_in_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_eop</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_in_ind" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_ind</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_ind</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_in_user_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_user_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_user_in[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_in_errin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_errin</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_errin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_out_errin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_out_errin</obj_property>
+      <obj_property name="ObjectShortName">sdu_out_errin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_out_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_out_ack</obj_property>
+      <obj_property name="ObjectShortName">sdu_out_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/addr_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_data_out[47:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_data_out[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/addr_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_dv</obj_property>
+      <obj_property name="ObjectShortName">addr_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/dstmacaddr_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dstmacaddr_out[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dstmacaddr_out[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/srcmacaddr_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">srcmacaddr_out[47:0]</obj_property>
+      <obj_property name="ObjectShortName">srcmacaddr_out[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/ethtype_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ethtype_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ethtype_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_in_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_in_ack</obj_property>
+      <obj_property name="ObjectShortName">sdu_in_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_in_errout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_in_errout</obj_property>
+      <obj_property name="ObjectShortName">sdu_in_errout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdu_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_doutv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_doutv</obj_property>
+      <obj_property name="ObjectShortName">pdu_doutv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_out_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_sop</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_out_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_eop</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_out_ind" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_ind</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_ind</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_out_errout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_errout</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_errout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_out_user_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_user_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_user_out[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_in_errout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_errout</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_errout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/pdu_in_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_ack</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sdu_dout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_doutv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_doutv</obj_property>
+      <obj_property name="ObjectShortName">sdu_doutv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_out_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_out_sop</obj_property>
+      <obj_property name="ObjectShortName">sdu_out_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_out_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_out_eop</obj_property>
+      <obj_property name="ObjectShortName">sdu_out_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_out_ind" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_out_ind</obj_property>
+      <obj_property name="ObjectShortName">sdu_out_ind</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_out_user_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_out_user_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sdu_out_user_out[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/sdu_out_errout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_out_errout</obj_property>
+      <obj_property name="ObjectShortName">sdu_out_errout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/tx_aux_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_aux_out[95:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_aux_out[95:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/tx_aux_outv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_aux_outv</obj_property>
+      <obj_property name="ObjectShortName">tx_aux_outv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/tx_aux_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_aux_in[95:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_aux_in[95:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/rx_aux_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_aux_in[95:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_aux_in[95:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/rx_aux_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_aux_out[95:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_aux_out[95:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/rx_aux_outv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_aux_outv</obj_property>
+      <obj_property name="ObjectShortName">rx_aux_outv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/auxq_dcntr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">auxq_dcntr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">auxq_dcntr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/auxq_ce_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">auxq_ce_out</obj_property>
+      <obj_property name="ObjectShortName">auxq_ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/auxq_ce_out_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">auxq_ce_out_sig</obj_property>
+      <obj_property name="ObjectShortName">auxq_ce_out_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_tx_auxq/TX_AUXQ/detect_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">detect_state</obj_property>
+      <obj_property name="ObjectShortName">detect_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_tx_auxq/TX_AUXQ/extract_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">extract_state</obj_property>
+      <obj_property name="ObjectShortName">extract_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_tx_auxq/TX_AUXQ/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_tx_auxq/TX_AUXQ/doutv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">doutv</obj_property>
+      <obj_property name="ObjectShortName">doutv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_tx_auxq/TX_AUXQ/out_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_eop</obj_property>
+      <obj_property name="ObjectShortName">out_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_tx_auxq/TX_AUXQ/out_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_sop</obj_property>
+      <obj_property name="ObjectShortName">out_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQ/extract_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">extract_state</obj_property>
+      <obj_property name="ObjectShortName">extract_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQ/detect_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">detect_state</obj_property>
+      <obj_property name="ObjectShortName">detect_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQ/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQ/doutv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">doutv</obj_property>
+      <obj_property name="ObjectShortName">doutv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQ/out_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_sop</obj_property>
+      <obj_property name="ObjectShortName">out_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQ/out_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_eop</obj_property>
+      <obj_property name="ObjectShortName">out_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQ/ce_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce_out</obj_property>
+      <obj_property name="ObjectShortName">ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/rx_auxq_ce_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_auxq_ce_out</obj_property>
+      <obj_property name="ObjectShortName">rx_auxq_ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/rx_auxq_ce_out_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_auxq_ce_out_sig</obj_property>
+      <obj_property name="ObjectShortName">rx_auxq_ce_out_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/rx_auxq_dcntr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_auxq_dcntr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_auxq_dcntr[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/sdu_out_sof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdu_out_sof</obj_property>
+      <obj_property name="ObjectShortName">sdu_out_sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/sin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/ser_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ser_dv</obj_property>
+      <obj_property name="ObjectShortName">ser_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/ser_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ser_sop</obj_property>
+      <obj_property name="ObjectShortName">ser_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/ser_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ser_eop</obj_property>
+      <obj_property name="ObjectShortName">ser_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/pout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pout[95:0]</obj_property>
+      <obj_property name="ObjectShortName">pout[95:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/poutv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">poutv</obj_property>
+      <obj_property name="ObjectShortName">poutv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/pout_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pout_reg[95:0]</obj_property>
+      <obj_property name="ObjectShortName">pout_reg[95:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/poutv_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">poutv_sig</obj_property>
+      <obj_property name="ObjectShortName">poutv_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ethermodule_test/uut/Eth_ProtoLayer/gen_rx_auxq/RX_AUXQDeSerializer/deser_ipgr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">deser_ipgr</obj_property>
+      <obj_property name="ObjectShortName">deser_ipgr</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Users/fjanky/ISE/ARPModule/ARP_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="arch" />
+            <top_module name="arp_test" />
+            <top_module name="arpmodulepkg" />
+            <top_module name="ProtoLayertypesanddefs" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="protomodulepkg" />
+            <top_module name="simulation" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="tuw" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="122" />
+   <wvobject fp_name="/arp_test/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/dst_macaddr_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_macaddr_out[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_macaddr_out[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/src_macaddr_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">src_macaddr_out[47:0]</obj_property>
+      <obj_property name="ObjectShortName">src_macaddr_out[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/etype_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">etype_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">etype_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdu_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_doutv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_doutv</obj_property>
+      <obj_property name="ObjectShortName">pdu_doutv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_out_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_sop</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_out_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_eop</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_out_ind" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_ind</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_ind</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_out_errout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_errout</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_errout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_out_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_ack</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_out_errin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_out_errin</obj_property>
+      <obj_property name="ObjectShortName">pdu_out_errin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/dst_macaddr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_macaddr_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_macaddr_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/src_macaddr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">src_macaddr_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">src_macaddr_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/etype_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">etype_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">etype_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdu_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_dinv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_dinv</obj_property>
+      <obj_property name="ObjectShortName">pdu_dinv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_in_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_sop</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_in_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_eop</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_in_ind" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_ind</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_ind</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_in_errin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_errin</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_errin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_in_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_ack</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_in_errout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_in_errout</obj_property>
+      <obj_property name="ObjectShortName">pdu_in_errout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/arp_request" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arp_request</obj_property>
+      <obj_property name="ObjectShortName">arp_request</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/arp_dst_ip_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">arp_dst_ip_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">arp_dst_ip_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/arp_dst_mac_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">arp_dst_mac_addr[47:0]</obj_property>
+      <obj_property name="ObjectShortName">arp_dst_mac_addr[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/arp_responsev" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arp_responsev</obj_property>
+      <obj_property name="ObjectShortName">arp_responsev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/arp_response_err" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arp_response_err</obj_property>
+      <obj_property name="ObjectShortName">arp_response_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ipaddr_wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ipaddr_wr_en</obj_property>
+      <obj_property name="ObjectShortName">ipaddr_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_wr_en</obj_property>
+      <obj_property name="ObjectShortName">macaddr_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ipaddr_rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ipaddr_rd_en</obj_property>
+      <obj_property name="ObjectShortName">ipaddr_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_rd_en</obj_property>
+      <obj_property name="ObjectShortName">macaddr_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[0:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/addr_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_data_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_data_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ipaddr_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ipaddr_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ipaddr_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_data_out[47:0]</obj_property>
+      <obj_property name="ObjectShortName">macaddr_data_out[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ipaddr_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ipaddr_dv</obj_property>
+      <obj_property name="ObjectShortName">ipaddr_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_dv</obj_property>
+      <obj_property name="ObjectShortName">macaddr_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/timer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timer[45:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[45:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/timeout_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">timeout_sig</obj_property>
+      <obj_property name="ObjectShortName">timeout_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/timer_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">timer_start</obj_property>
+      <obj_property name="ObjectShortName">timer_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/retry_cntr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">retry_cntr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">retry_cntr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/dst_macaddr_out_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dst_macaddr_out_sig[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_macaddr_out_sig[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/src_macaddr_out_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">src_macaddr_out_sig[47:0]</obj_property>
+      <obj_property name="ObjectShortName">src_macaddr_out_sig[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/req_ipaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">req_ipaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">req_ipaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/srch_targetip" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">srch_targetip</obj_property>
+      <obj_property name="ObjectShortName">srch_targetip</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/target_match" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">target_match</obj_property>
+      <obj_property name="ObjectShortName">target_match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/target_matchv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">target_matchv</obj_property>
+      <obj_property name="ObjectShortName">target_matchv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/target_addr_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">target_addr_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">target_addr_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_rd_en_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_rd_en_sig</obj_property>
+      <obj_property name="ObjectShortName">macaddr_rd_en_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_rd_en_ovrn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_rd_en_ovrn</obj_property>
+      <obj_property name="ObjectShortName">macaddr_rd_en_ovrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_rdaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_rdaddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">macaddr_rdaddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/target_addr_out_int" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">target_addr_out_int[3:0]</obj_property>
+      <obj_property name="ObjectShortName">target_addr_out_int[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/addr_int" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_int[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_int[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_wraddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_wraddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">macaddr_wraddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/macaddr_data_out_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">macaddr_data_out_sig[47:0]</obj_property>
+      <obj_property name="ObjectShortName">macaddr_data_out_sig[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/tx_packet_register" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_packet_register[223:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_packet_register[223:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/rx_packet_register_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_packet_register_sig[223:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_packet_register_sig[223:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/rx_reg_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_reg_en</obj_property>
+      <obj_property name="ObjectShortName">rx_reg_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/rx_reg_err" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_reg_err</obj_property>
+      <obj_property name="ObjectShortName">rx_reg_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/rx_packet_register" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_packet_register[223:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_packet_register[223:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/rx_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_state</obj_property>
+      <obj_property name="ObjectShortName">rx_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/tx_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_state</obj_property>
+      <obj_property name="ObjectShortName">tx_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_tx_opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_tx_opcode[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_tx_opcode[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_tx_hwaos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_tx_hwaos[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_tx_hwaos[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_tx_praos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_tx_praos[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_tx_praos[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_tx_hwaot" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_tx_hwaot[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_tx_hwaot[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_tx_praot" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_tx_praot[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_tx_praot[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_rx_hrd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_rx_hrd[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_rx_hrd[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_rx_pro" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_rx_pro[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_rx_pro[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_rx_hln_pln" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_rx_hln_pln[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_rx_hln_pln[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_rx_opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_rx_opcode[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_rx_opcode[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_rx_hwaos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_rx_hwaos[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_rx_hwaos[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_rx_praos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_rx_praos[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_rx_praos[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_rx_hwaot" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_rx_hwaot[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_rx_hwaot[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ar_rx_praot" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ar_rx_praot[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_rx_praot[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/def_macaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">def_macaddr[47:0]</obj_property>
+      <obj_property name="ObjectShortName">def_macaddr[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/def_ipaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">def_ipaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">def_ipaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/resp_ipaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">resp_ipaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">resp_ipaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/resp_macaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">resp_macaddr[47:0]</obj_property>
+      <obj_property name="ObjectShortName">resp_macaddr[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/ser_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ser_start</obj_property>
+      <obj_property name="ObjectShortName">ser_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/sendresponse" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sendresponse</obj_property>
+      <obj_property name="ObjectShortName">sendresponse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/arp_request_rise" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">arp_request_rise</obj_property>
+      <obj_property name="ObjectShortName">arp_request_rise</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/pdu_doutv_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pdu_doutv_sig</obj_property>
+      <obj_property name="ObjectShortName">pdu_doutv_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/request_pending" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">request_pending</obj_property>
+      <obj_property name="ObjectShortName">request_pending</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/valid_response" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_response</obj_property>
+      <obj_property name="ObjectShortName">valid_response</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/responsesent" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">responsesent</obj_property>
+      <obj_property name="ObjectShortName">responsesent</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/datawidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">datawidth</obj_property>
+      <obj_property name="ObjectShortName">datawidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/rx_sync_in" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_sync_in</obj_property>
+      <obj_property name="ObjectShortName">rx_sync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/tx_sync_out" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_sync_out</obj_property>
+      <obj_property name="ObjectShortName">tx_sync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/numofaddresses" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">numofaddresses</obj_property>
+      <obj_property name="ObjectShortName">numofaddresses</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/clk_freq" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_freq</obj_property>
+      <obj_property name="ObjectShortName">clk_freq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/timeout" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">timeout</obj_property>
+      <obj_property name="ObjectShortName">timeout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/retrycnt" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">retrycnt</obj_property>
+      <obj_property name="ObjectShortName">retrycnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/addrwidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">addrwidth</obj_property>
+      <obj_property name="ObjectShortName">addrwidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/mul_factor" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">mul_factor</obj_property>
+      <obj_property name="ObjectShortName">mul_factor</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/timerwidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">timerwidth</obj_property>
+      <obj_property name="ObjectShortName">timerwidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/retrywidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">retrywidth</obj_property>
+      <obj_property name="ObjectShortName">retrywidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/retrycnt_vec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">retrycnt_vec[1:0]</obj_property>
+      <obj_property name="ObjectShortName">retrycnt_vec[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/arp_ethip_lendw" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">arp_ethip_lendw</obj_property>
+      <obj_property name="ObjectShortName">arp_ethip_lendw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/sin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/ser_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ser_dv</obj_property>
+      <obj_property name="ObjectShortName">ser_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/ser_sop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ser_sop</obj_property>
+      <obj_property name="ObjectShortName">ser_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/ser_eop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ser_eop</obj_property>
+      <obj_property name="ObjectShortName">ser_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/pout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pout[223:0]</obj_property>
+      <obj_property name="ObjectShortName">pout[223:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/poutv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">poutv</obj_property>
+      <obj_property name="ObjectShortName">poutv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/pout_err" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pout_err</obj_property>
+      <obj_property name="ObjectShortName">pout_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/pout_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pout_reg[223:0]</obj_property>
+      <obj_property name="ObjectShortName">pout_reg[223:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/poutv_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">poutv_sig</obj_property>
+      <obj_property name="ObjectShortName">poutv_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/pout_err_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pout_err_sig</obj_property>
+      <obj_property name="ObjectShortName">pout_err_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/deser_ipgr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">deser_ipgr</obj_property>
+      <obj_property name="ObjectShortName">deser_ipgr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/todeser_cntr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">todeser_cntr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">todeser_cntr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/datawidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">datawidth</obj_property>
+      <obj_property name="ObjectShortName">datawidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/todeser" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">todeser</obj_property>
+      <obj_property name="ObjectShortName">todeser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/outwidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">outwidth</obj_property>
+      <obj_property name="ObjectShortName">outwidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/cntrlen" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrlen</obj_property>
+      <obj_property name="ObjectShortName">cntrlen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_test/uut/Inst_DeSerializer/todeser_vec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">todeser_vec[4:0]</obj_property>
+      <obj_property name="ObjectShortName">todeser_vec[4:0]</obj_property>
+   </wvobject>
+</wave_config>

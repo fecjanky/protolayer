@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Users/fjanky/ISE/EthernetModule/CAM_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cam_test" />
+            <top_module name="ProtoLayertypesanddefs" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="pduqueuepkg" />
+            <top_module name="protomodulepkg" />
+            <top_module name="simulation" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/cam_test/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[47:0]</obj_property>
+      <obj_property name="ObjectShortName">din[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/addr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/match" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">match</obj_property>
+      <obj_property name="ObjectShortName">match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/matchv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">matchv</obj_property>
+      <obj_property name="ObjectShortName">matchv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/addr_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/addr_outv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_outv</obj_property>
+      <obj_property name="ObjectShortName">addr_outv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/darray" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">darray[0:1]</obj_property>
+      <obj_property name="ObjectShortName">darray[0:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/cam_test/uut/darray[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">darray[0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cam_test/uut/darray[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">darray[1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/match_vector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">match_vector[1:0]</obj_property>
+      <obj_property name="ObjectShortName">match_vector[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/check_match" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">check_match</obj_property>
+      <obj_property name="ObjectShortName">check_match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/addr_out_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_out_sig[0:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out_sig[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/addr_outv_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_outv_sig</obj_property>
+      <obj_property name="ObjectShortName">addr_outv_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/matchv_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">matchv_sig</obj_property>
+      <obj_property name="ObjectShortName">matchv_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/match_sig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">match_sig</obj_property>
+      <obj_property name="ObjectShortName">match_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/datawidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">datawidth</obj_property>
+      <obj_property name="ObjectShortName">datawidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/elements" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">elements</obj_property>
+      <obj_property name="ObjectShortName">elements</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cam_test/uut/addrwidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">addrwidth</obj_property>
+      <obj_property name="ObjectShortName">addrwidth</obj_property>
+   </wvobject>
+</wave_config>

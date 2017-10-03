@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/docs/univ/MSC/2012_2013_I/diplomaterv_I/ISE/test/test_MACFramer_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="macframerpkg" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test_macframer" />
+            <top_module name="textio" />
+            <top_module name="typesanddefinitonspkg" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/test_macframer/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/rxd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/rxdv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxdv</obj_property>
+      <obj_property name="ObjectShortName">rxdv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/sof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sof</obj_property>
+      <obj_property name="ObjectShortName">sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/eof" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eof</obj_property>
+      <obj_property name="ObjectShortName">eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/up_pduout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">up_pduout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">up_pduout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/up_dstmacout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">up_dstmacout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">up_dstmacout[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/up_srcmacout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">up_srcmacout[47:0]</obj_property>
+      <obj_property name="ObjectShortName">up_srcmacout[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/up_etypeout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">up_etypeout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">up_etypeout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/uut/rx_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_state</obj_property>
+      <obj_property name="ObjectShortName">rx_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/uut/rx_nextstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_nextstate</obj_property>
+      <obj_property name="ObjectShortName">rx_nextstate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_macframer/uut/rxcounter" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">rxcounter</obj_property>
+      <obj_property name="ObjectShortName">rxcounter</obj_property>
+   </wvobject>
+</wave_config>
